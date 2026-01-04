@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import p5 from "p5";
+export const dynamic = "force-dynamic";
 
 export default function Sketch1() {
   const sketchRef = useRef<HTMLDivElement>(null);
