@@ -15,7 +15,7 @@ export default function Home() {
             </Link>
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/next.svg`}
           alt="Next.js logo"
           width={100}
           height={20}
@@ -52,7 +52,7 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/vercel.svg"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/vercel.svg`}
               alt="Vercel logomark"
               width={16}
               height={16}
